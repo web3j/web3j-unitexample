@@ -9,7 +9,7 @@ import org.web3j.tx.gas.ContractGasProvider;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@EVMTest(type = NodeType.GETH)
+@EVMTest()
 public class GreeterTest {
     @Test
     public void helloWorldTest(Web3j web3j,
