@@ -10,16 +10,14 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
-    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
-    maven { url "https://dl.bintray.com/ethereum/maven/" }
 }
 
 dependencies {
-    implementation "org.web3j:core:4.5.8"
+    implementation "org.web3j:core:4.5.10"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
-    testCompile "org.web3j:web3j-unit:4.5.8"
+    testCompile "org.web3j:web3j-unit:4.5.10"
     testCompile "org.junit.jupiter:junit-jupiter-engine:5.5.2",
             "org.junit.jupiter:junit-jupiter-api:5.5.2",
             "org.junit.jupiter:junit-jupiter-params:5.5.2"
