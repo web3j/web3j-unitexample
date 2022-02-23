@@ -10,6 +10,9 @@ import org.web3j.tx.gas.ContractGasProvider;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Required geth key and password
+ */
 @EVMTest(type = NodeType.GETH)
 public class GreeterGethTest {
     @Test
