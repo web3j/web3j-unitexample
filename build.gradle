@@ -42,7 +42,3 @@ test {
     }
 }
 
-compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
-    destinationDir = compileJava.destinationDir
-}
